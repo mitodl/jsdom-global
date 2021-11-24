@@ -29,6 +29,10 @@ module.exports = function globalJsdom (html, options) {
   var document = new jsdom.JSDOM(html, options)
   var window = document.window
 
+  // we want to ensure that the consuming environment can access
+  // the JSDOM instance
+  global._jsdom = document
+
   KEYS.forEach(function (key) {
     global[key] = window[key]
   })
