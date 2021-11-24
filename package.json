@@ -1,18 +1,18 @@
 {
-  "name": "jsdom-global",
-  "description": "Enable DOM in Node.js",
+  "name": "@mitodl/jsdom-global",
+  "description": "Enable DOM in Node.js (MIT Open Learning fork)",
   "version": "3.0.2",
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "browser": "browser.js",
   "bugs": {
-    "url": "https://github.com/rstacruz/jsdom-global/issues"
+    "url": "https://github.com/mitodl/jsdom-global/issues"
   },
   "devDependencies": {
     "jsdom": "~10.0.0",
     "standard": "~10.0.2",
     "tape": "~4.6.3"
   },
-  "homepage": "https://github.com/rstacruz/jsdom-global#readme",
+  "homepage": "https://github.com/mitodl/jsdom-global#readme",
   "keywords": [
     "dom",
     "jsdom",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rstacruz/jsdom-global.git"
+    "url": "git+https://github.com/mitodl/jsdom-global.git"
   },
   "scripts": {
     "test": "node test.js && standard"
