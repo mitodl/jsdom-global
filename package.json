@@ -1,7 +1,7 @@
 {
   "name": "@mitodl/jsdom-global",
   "description": "Enable DOM in Node.js (MIT Open Learning fork)",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "browser": "browser.js",
   "bugs": {
